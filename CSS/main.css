@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.maindiv {
+    background-color: white;
+}
+.head-out {
+    background: url(../IMAGE/b3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	background-attachment: fixed;
+    min-height: 800px;
+	position:relative;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+    padding: .5rem 1.5rem;
+}
+.mt_1 {
+    margin-top: .5rem;
+}
+.mt_2 {
+    margin-top: 1rem;
+}
+
+
+
+
+@media(max-width:1440px){
+    .head-out {
+        min-height: 642px;	
+    }
+}
+
+
+@media(max-width:1080px){
+    .head-out {
+        min-height: 596px;
+    }
+}
+
+@media(max-width:991px){
+    .head-out {
+        min-height: 572px;
+    }
+}
+
+@media(max-width:800px){
+    .head-out {
+        min-height: 527px;
+    }
+}
+
+@media(max-width:736px){
+    .head-out {
+        min-height: 502px;
+    }
+}
+
+@media(max-width:640px){
+    .head-out {
+        min-height: 409px;
+    }
+    
+}
+
+@media(max-width:480px){
+    .head-out {
+        min-height: 404px;
+    }
+}
+
+@media(max-width:384px){
+	.head-out {
+        min-height: 385px;
+    }
+}
+
+@media(max-width:375px){
+    .head-out {
+        min-height: 347px;
+        background-position: bottom left;
+    }
+    .nav-link {
+        box-shadow: 0px 4px 4px -2px black;
+    }
+    .navbar-toggler {
+        border: none;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: rgba(255,255,255);
+        
+    }
+    .mt_1, .mt_2 {
+        margin-top: 0;
+    }
+}
