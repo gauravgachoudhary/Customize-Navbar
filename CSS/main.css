@@ -24,6 +24,11 @@
 .mt_2 {
     margin-top: 1rem;
 }
+.innerwidths {
+    width: 100%;
+    height: 100px;
+    background: blue;
+}
 
 
 @media(max-width:1440px){
